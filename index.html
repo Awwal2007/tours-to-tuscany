@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours To Truancy | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="index.html">
+                <img class="logo" src="./image/logo.png" alt="logo">
+            </a>
+            <ul id="nav-ul">
+                <li>
+                    <a class="active" href="index.html">home</a>
+                </li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="tour-packages.html">tour packages</a></li>
+                <li><a href="/contact.html">contact us</a></li>
+            </ul>
+            <div class="nav-login-container">
+                <select>
+                    <option value="eng">eng</option>
+                    <option value="eng">esp</option>
+                    <option value="eng">ara</option>
+                </select>
+                <a href="">login</a>
+                <a class="signup-btn" href="">signup</a>
+            </div>
+            <div onclick="
+                const nav = document.getElementById('nav-ul')
+                nav.style.display = nav.style.display === 'block' ? 'none' : 'block'" id="arm-burger">
+                <i style="color: black;" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <div class="hero-section-heading">
+                <h1>Enjoy in the best way!</h1>
+                <p>Enjoy our service for your trip anytime</p>
+            </div>
+            <div class="hero-section-bottom">
+                <div class="top">
+                    <div class="public-tour">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <p>Public Tours</p>
+                    </div>
+                    <div class="private-tour">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Private Tours</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="label-container">
+                        <div class="select-label">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Number of people</p>
+                            <select>
+                                <option value="">Choose number</option>
+                                <option value="">Choose number</option>
+                                <option value="">Choose number</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="label-container">
+                        <div class="select-label">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Date</p>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="label-container">
+                        <div class="select-label">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div>
+                            <p>Time</p>
+                            <select>
+                                <option value="">1:00 am</option>
+                                <option value="">2:00 am</option>
+                                <option value="">3:00 am</option>
+                                <option value="">4:00 am</option>
+                                <option value="">5:00 am</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="label-container">
+                        <div class="select-label">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Tour</p>
+                            <select>
+                                <option value="">Select Tour</option>
+                                <option value="">Select Tour</option>
+                                <option value="">Select Tour</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="label-container">
+                        <div class="select-label">
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Transportation</p>
+                            <select>
+                                <option value="">Select Transportation</option>
+                                <option value="">Select Transportation</option>
+                                <option value="">Select Transportation</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="label-container exp">
+                        <a class="search-btn" href="#">
+                            <p>Search</p>
+                            <i  class="fa fa-search " aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section2">
+        <div class="section2-heading">
+            <h2>Explore Our Popular Destinantions </h2>
+            <div class="section2-pagination">
+                <i class="fa-solid fa-less-than"></i>
+                <i class="fa-solid fa-greater-than"></i>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="car-top">
+                    <img src="./image/Rectangle 16.png" alt="">
+                </div>
+                <div class="card-bottom">
+                    <h3>Lucca Bike Tour</h3>
+                    <div>
+                        <span>from</span>
+                        <b>34 €</b>
+                    </div>
+                    <div class="card-date">
+                        <div>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <span>every day</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span>3-10</span>
+                            <span>PP</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>A tour of the city and its surroundings led by a professional guide ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="car-top">
+                    <img src="./image/Rectangle 16 (1).png" alt="">
+                </div>
+                <div class="card-bottom">
+                    <h3>Wine tasting In Tuscany</h3>
+                    <div>
+                        <span>from</span>
+                        <b>34 €</b>
+                    </div>
+                    <div class="card-date">
+                        <div>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <span>monday</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span>10-30</span>
+                            <span>PP</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>The real magic is here where you can enjoy the best Tuscan wine and eat ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="car-top">
+                    <img src="./image/Rectangle 16 (2).png" alt="">
+                </div>
+                <div class="card-bottom">
+                    <h3>Cinque Terre Tour</h3>
+                    <div>
+                        <span>from</span>
+                        <b>34 €</b>
+                    </div>
+                    <div class="card-date">
+                        <div>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <span>to be decided</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span>10-50</span>
+                            <span>PP</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Visiting the 5 Terre is a must, and you can never go there enough ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="car-top">
+                    <img src="./image/Rectangle 16 (3).png" alt="">
+                </div>
+                <div class="card-bottom">
+                    <h3>Siena and Surroundings</h3>
+                    <div>
+                        <span>from</span>
+                        <b>34 €</b>
+                    </div>
+                    <div class="card-date">
+                        <div>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <span>to be decided</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span>5-10</span>
+                            <span>PP</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Visit the beautiful Siena and the cities that surround it to experience ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="section3-left">
+            <img src="./image/about picture.png" alt="about us image">
+        </div>
+        <div class="section3-right">
+            <div class="top">
+                <p>WELCOME TO OUR SITE!</p>
+                <h2>We are the best company for your visit</h2>
+            </div>
+            <p>
+                After decades of experience, and a whole life in Lucca, we offer you the most complete tourism service in the city. In addition to having bikes and rickshaws to have as much fun as you want, you have the choice of tour guides with whom to tour and drivers for your every need! We offer packages in the way that you get the most at the lowest price. Book with us and we will always be available for you!
+            </p>
+            <div class="bottom">
+                <div>
+                    <h2>20+</h2>
+                    <p>Years</p>
+                    <p>Experience</p>
+                </div>
+                <div>
+                    <h2>20+</h2>
+                    <p>Years</p>
+                    <p>Experience</p>
+                </div>
+                <div>
+                    <h2>20+</h2>
+                    <p>Years</p>
+                    <p>Experience</p>
+                </div>
+                <div>
+                    <h2>20+</h2>
+                    <p>Years</p>
+                    <p>Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="relative">
+        <section class="section4">
+            <div class="left">
+                <h2>Get Special Offers for Organizations</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="right">
+                <img src="./image/contact-us-image.png" alt="contact us image">
+            </div>
+        </section>
+    </div>
+
+    <section class="section5">
+        <div class="card">
+            <img src="/image/Rectangle 18.png" alt="product image">
+            <h2>Bike and rickshaw rental</h2>
+            <p>Book your quality vehicle quickly for an hour or all day!</p>
+        </div>
+        <div class="card">
+            <img src="/image/Rectangle 19.png" alt="product image">
+            <h2>Bike and rickshaw rental</h2>
+            <p>Book your quality vehicle quickly for an hour or all day!</p>
+        </div>
+        <div class="card">
+            <img src="/image/Rectangle 20.png" alt="product image">
+            <h2>Bike and rickshaw rental</h2>
+            <p>Book your quality vehicle quickly for an hour or all day!</p>
+        </div>
+        <div class="card">
+            <img src="/image/Rectangle 20 (1).png" alt="product image">
+            <h2>Bike and rickshaw rental</h2>
+            <p>Book your quality vehicle quickly for an hour or all day!</p>
+        </div>
+    </section>
+
+    <section class="section6">
+        <div class="background">
+            <div class="left">
+                <h2>Book Now Bike</h2>
+                <form>
+                    <div class="input-container">
+                        <div>
+                            <label for="Name and Surname">
+                                Name and Surname
+                            </label>
+                            <input type="text" placeholder="Enter your name and surname">
+                        </div>
+                        <div>
+                            <label for="Email">
+                                Email
+                            </label>
+                            <input type="email" placeholder="Enter your email address">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div>
+                            <label for="Name and Surname">
+                                Telephone Number
+                            </label>
+                            <input type="text" placeholder="Enter your name and surname">
+                        </div>
+                        <div>
+                            <label for="Email">
+                                Sevice Type
+                            </label>
+                            <select>
+                                <option value="">Select the service type</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div>
+                            <label for="Name and Surname">
+                                Date
+                            </label>
+                            <input type="date" >
+                        </div>
+                        <div>
+                            <label for="Email">
+                                Time
+                            </label>
+                            <input type="time" >
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <a type="submit" class="book-now-btn" href="#">Book Now</a>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <img src="./image/bike picture.png" alt="book bike now">
+            </div>
+        </div>
+    </section>
+
+    <section class="section7">
+        <h2>The Most Popular Packages</h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="top">
+                    <img src="/image/Rectangle 21.png" alt="package image">
+                </div>
+                <div class="bottom">
+                    <h3>BIKE / RICKSHAW</h3>
+                    <div class="price">
+                        <span>£</span> 
+                        <span class="amount">10</span>
+                        <span>/day</span>
+                    </div>
+                    <div class="product-tag">
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Your bike for a day</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>City App</p>
+                        </div>
+                        <div>                            
+                            <i class="fa-solid fa-tag"></i>
+                            <p>Discount on Rickshaw</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-headset"></i>
+                            <p>Guaranteed Support</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <button>
+                                Book Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <img src="/image/Rectangle 21.png" alt="package image">
+                </div>
+                <div class="bottom">
+                    <h3>BIKE / RICKSHAW</h3>
+                    <div class="price">
+                        <span>£</span> 
+                        <span class="amount">10</span>
+                        <span>/day</span>
+                    </div>
+                    <div class="product-tag">
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Your bike for a day</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>City App</p>
+                        </div>
+                        <div>                            
+                            <i class="fa-solid fa-tag"></i>
+                            <p>Discount on Rickshaw</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-headset"></i>
+                            <p>Guaranteed Support</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <button>
+                                Book Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <img src="/image/Rectangle 21.png" alt="package image">
+                </div>
+                <div class="bottom">
+                    <h3>BIKE / RICKSHAW</h3>
+                    <div class="price">
+                        <span>£</span> 
+                        <span class="amount">10</span>
+                        <span>/day</span>
+                    </div>
+                    <div class="product-tag">
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Your bike for a day</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>City App</p>
+                        </div>
+                        <div>                            
+                            <i class="fa-solid fa-tag"></i>
+                            <p>Discount on Rickshaw</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-headset"></i>
+                            <p>Guaranteed Support</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <button>
+                                Book Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <img src="/image/Rectangle 21.png" alt="package image">
+                </div>
+                <div class="bottom">
+                    <h3>BIKE / RICKSHAW</h3>
+                    <div class="price">
+                        <span>£</span> 
+                        <span class="amount">10</span>
+                        <span>/day</span>
+                    </div>
+                    <div class="product-tag">
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Your bike for a day</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>City App</p>
+                        </div>
+                        <div>                            
+                            <i class="fa-solid fa-tag"></i>
+                            <p>Discount on Rickshaw</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-headset"></i>
+                            <p>Guaranteed Support</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <button>
+                                Book Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section8">
+        <div class="section8-heading">
+            <h2>Happy Customers Says</h2>
+            <div class="section8-pagination">
+                <i class="fa-solid fa-less-than"></i>
+                <i class="fa-solid fa-greater-than"></i>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="top">
+                    <div>
+                        <img src="./image/Ellipse 4.png" alt="customer_img">
+                    </div>
+                    <div>
+                        <p>Lyod Gomez</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="qoute-1">
+                        <img src="./image/Layer 2.png" alt="">
+                    </div>
+                    <div>
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure
+                    </div>
+                    <div class="qoute-2">
+                        <img src="./image/Layer 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <div>
+                        <img src="./image/Ellipse 4.png" alt="customer_img">
+                    </div>
+                    <div>
+                        <p>Lyod Gomez</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="qoute-1">
+                        <img src="./image/Layer 2.png" alt="">
+                    </div>
+                    <div>
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure
+                    </div>
+                    <div class="qoute-2">
+                        <img src="./image/Layer 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <a href="/index.html" class="logo">
+            <img src="./image/logo.png" alt="brand-logo">
+        </a>
+        <hr>
+        <div class="content">
+            <div>
+                <h4>Services</h4>
+                <p>Bike and Rickshaw rental</p>
+                <p>Guided Tours of Lucca</p>
+                <p>Guided Bike Tour of Lucca</p>
+                <p>Trip In The Tuscan Hills</p>
+                <p>Transportation With Luxury Cars</p>
+                <p>Wine Tours By Bus With Guide</p>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <p><a href="/index.html">Home</a></p>
+                <p><a href="/about.html">About us</a></p>
+                <p><a href="/tour-packages.html">Tour Packages</a></p>
+                <p><a href="/contact.html">Contact Us</a></p>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <p>Term of Use</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <h4>Contacts</h4>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Piazza Napoleone, Lucca, Tuscany
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +39 346 368 5708
+
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    italiainlimo@gmail.com
+                </p>
+            </div>
+            <div>
+                <h4>Social Media</h4>
+                <div class="social-media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            Copyright © 2022.  All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

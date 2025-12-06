@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours to Tuscany | Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <img class="logo" src="./image/logo.png" alt="logo">
+        </a>
+        <ul id="nav-ul">
+            <li>
+                <a href="/index.html">home</a>
+            </li>
+            <li><a href="/about.html">about us</a></li>
+            <li><a href="/tour-packages.html">tour packages</a></li>
+            <li><a class="active" href="/contact.html">contact us</a></li>
+        </ul>
+        <div class="nav-login-container">
+            <select>
+                <option value="eng">eng</option>
+                <option value="eng">esp</option>
+                <option value="eng">ara</option>
+            </select>
+            <a href="">login</a>
+            <a class="signup-btn" href="">signup</a>
+        </div>
+        <div onclick="
+            const nav = document.getElementById('nav-ul')
+            nav.style.display = nav.style.display === 'block' ? 'none' : 'block'" id="arm-burger">
+            <i style="color: white;" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="section1">
+        <div class="left">
+            <div class="top">
+                <h2>Get In Touch!</h2>
+                <p>Fill up the form and our Team will get <br> back to you within 24 hours.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                Piazza Napoleone, Lucca, Tuscany
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone"></i>
+                +39 346 368 5708
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                italiainlimo@gmail.com
+            </div>
+        </div>
+        <div class="right">
+            <form>
+                <div class="input-container">
+                    <div>
+                        <label for="Name and Surname">
+                            Name and Surname
+                        </label>
+                        <input type="text" placeholder="Enter your name and surname">
+                    </div>
+                    <div>
+                        <label for="Email">
+                            Email
+                        </label>
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <div>
+                        <label for="Name and Surname">
+                            Message
+                        </label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                </div>
+                
+                <div style="text-align: center;">
+                    <a type="submit" class="book-now-btn" href="#">Book Now</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <img src="./image/location.png" alt="map bran icon">
+    </section>
+
+    <footer>
+        <a href="/index.html" class="logo">
+            <img src="./image/logo.png" alt="brand-logo">
+        </a>
+        <hr>
+        <div class="content">
+            <div>
+                <h4>Services</h4>
+                <p>Bike and Rickshaw rental</p>
+                <p>Guided Tours of Lucca</p>
+                <p>Guided Bike Tour of Lucca</p>
+                <p>Trip In The Tuscan Hills</p>
+                <p>Transportation With Luxury Cars</p>
+                <p>Wine Tours By Bus With Guide</p>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <p><a href="/index.html">Home</a></p>
+                <p><a href="/about.html">About us</a></p>
+                <p><a href="/tour-packages.html">Tour Packages</a></p>
+                <p><a href="/contact.html">Contact us</a></p>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <p>Term of Use</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <h4>Contacts</h4>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Piazza Napoleone, Lucca, Tuscany
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +39 346 368 5708
+
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    italiainlimo@gmail.com
+                </p>
+            </div>
+            <div>
+                <h4>Social Media</h4>
+                <div class="social-media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            Copyright © 2022.  All rights reserved.
+        </div>
+    </footer>
+    
+</body>
+</html>
